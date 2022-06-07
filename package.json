@@ -2,7 +2,7 @@
   "name": "react-gh-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Syugar-Man.github.io/app/",
+  "homepage": "https://syugar-man.github.io/app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "rm": "rd /s /q docs",
     "mv": "move build docs",
-    "git": "git add . && git commit -m "commit" && git push origin master",
+    "git": "git add -A && git commit -m \"commit\" && git push origin master",
     "deploy": "npm run rm && npm run build && npm run mv && npm run git"
   },
   "eslintConfig": {
